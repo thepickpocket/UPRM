@@ -6,9 +6,9 @@ This repository will have all documentation relevant to the software specificati
 ## Writers
 
 Vivian Laura-Lee Venter
-> BSc Computer Science
+> BSc Computer Science <br />
 > Current BSc(Hons) Computer Science student
 
 Jason Richard Evans
-> BSc Computer Science
+> BSc Computer Science <br />
 > Current BSc(Hons) Computer Science student
