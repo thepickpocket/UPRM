@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.28)  13 FEB 2016 10:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.28)  13 FEB 2016 16:43
 entering extended mode
 **UPRM_Spec.tex
 ("C:\Users\VivianWork\Documents\UPRM\Requirements Documentation\UPRM_Spec.tex"
@@ -107,11 +107,11 @@ ents/UPRM/Resources/up-logo.jpg>]
 ("C:\Users\VivianWork\Documents\UPRM\Requirements Documentation\UPRM_Spec.toc"
 [1])
 \tf@toc=\write3
-
+ [2]
 ("C:\Users\VivianWork\Documents\UPRM\Requirements Documentation\introduction.te
-x")
+x") [3]
 ("C:\Users\VivianWork\Documents\UPRM\Requirements Documentation\description.tex
-")
+") [4]
 ("C:\Users\VivianWork\Documents\UPRM\Requirements Documentation\body_requiremen
 ts.tex"
 ("C:\Users\VivianWork\Documents\UPRM\Requirements Documentation\requirements/in
@@ -123,32 +123,28 @@ ecases.tex")
 ("C:\Users\VivianWork\Documents\UPRM\Requirements Documentation\requirements/cl
 asses_objects.tex")
 ("C:\Users\VivianWork\Documents\UPRM\Requirements Documentation\requirements/no
-nfunctional.tex"))
+nfunctional.tex")) [5]
 ("C:\Users\VivianWork\Documents\UPRM\Requirements Documentation\analysismodels.
-tex")
+tex") [6]
 ("C:\Users\VivianWork\Documents\UPRM\Requirements Documentation\appendices.tex"
-[2]
-Overfull \vbox (455.41673pt too high) has occurred while \output is active []
-
-
-[3]) [4]
+) [7]
 ("C:\Users\VivianWork\Documents\UPRM\Requirements Documentation\UPRM_Spec.aux")
  ) 
 Here is how much of TeX's memory you used:
  1177 strings out of 493921
  17432 string characters out of 3144861
- 69002 words of memory out of 3000000
+ 70018 words of memory out of 3000000
  4475 multiletter control sequences out of 15000+200000
  10051 words of font info for 35 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,4n,19p,251b,238s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,5n,19p,251b,238s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on UPRM_Spec.pdf (5 pages, 115191 bytes).
+Output written on UPRM_Spec.pdf (8 pages, 116843 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

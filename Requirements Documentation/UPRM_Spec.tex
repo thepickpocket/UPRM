@@ -2,7 +2,7 @@
 %  Document Configurations
 %--------------------------------------
 
-\documentclass[12pt]{article}
+\documentclass[12pt, a4paper]{article}
 \usepackage{graphicx}
 \graphicspath{{../Resources/}}
 
@@ -38,18 +38,25 @@
 	\end{titlepage}
 
 	\tableofcontents
+	\pagebreak
 
 	\input{introduction}
+	\pagebreak
+
 	\input{description}
+	\pagebreak
 
 	\input{body_requirements}
-	%more pages wil be created for each subsection within requirements
+	\pagebreak
 
 	\input{analysismodels}
 
 	\section{Change Management Process}
 	TO ADD TEXT
 
+	\pagebreak
+
 	\input{appendices}
+
 	
 \end{document}
