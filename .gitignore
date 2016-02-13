@@ -4,3 +4,4 @@
 *.syntex.gz
 *.toc
 *.bak
+.syntex.gz
