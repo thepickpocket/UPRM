@@ -2,7 +2,7 @@
 \section{Introduction}
 
 	\subsection{Purpose}
-		This document serves as the software requirements specification for UPRM (University of Pretoria Research Manager). 
+		This document serves as the software requirements specification (SRS) for UPRM (University of Pretoria Research Manager). 
 		The requirements will include both the functional and non-functional requirements. 
 		This document is written as a requirements guideline for the software enigineers and any other party involved in the creation of UPRM.
 
@@ -12,6 +12,7 @@
 			\begin{itemize}
 				\item research manager, known as RM.
 				\item statistics query tool, known as RMSQ.
+				\item event/venue creation tool known as RMVC.
 				\item report generator tool, known as RMR.\\
 			\end{itemize}
 		\end{paragraph}
@@ -20,8 +21,20 @@
 			Description of each product within the scope of UPRM:
 				\begin{itemize}
 					\item RM -
-						\item RMSQ -
-				\item RMR -
+						This will be the main focus for UPRM. This tool will assist the researcher with creating a new research "project". 
+						The user/s will have to be able to create a new project, enter the research topic, create an approximate timeline for the completion of the paper which can then relate to percentage of completion. During the writing of the paper, the user should be able to change or edit the research topic. Once the user has marked the paper as complete, the user/s should be able to submit the paper to venue/s of their choice registered on the UPRM system.
+					\item RMSQ -
+						The statistics query tool has its own subset of tools combined into one system integrated with UPRM. The statistics query tool will have to be able to generate statistics at a global system level as well as at a user based level. With the statistics query tool we will have to factor in privacy issues and hence only certain functionality will be granted to certain users based on preferences set by the main UPRM user of project leader. On a \textbf{global level}, the user will have to be able to generate statistics on the following: 
+							\begin{itemize}
+								\item Percentage of paper acceptance for institution.
+								\item Percentage of papers accepted per venue.
+								\item Percentage of papers accepted for certain user/researcher.
+								\item How many papers are currently being produced by the institution.
+								\item How many papers are currently being produced by a certain user/researcher.
+								\item Tracking the percentage of completion of a paper for a certain researcher.
+							\end{itemize}
+					\item RMVC -
+					\item RMR -
 				\end{itemize}
 		\end{paragraph}
 
@@ -30,6 +43,7 @@
 			\item{\textbf{UPRM}} - The system at hand, University of Pretoria Research Manager
 			\item{\textbf{RM}} - Research Manager 
 			\item{\textbf{RMSQ}} - Research Manager Statistics Query Tool
+			\item{\textbf{RMVC}} - Research Manager Venue Creation
 			\item{\textbf{RMR}} - Research Manager Reports
 		\end{itemize}
 	\subsection{References}
