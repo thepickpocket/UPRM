@@ -5,6 +5,12 @@ This section will give an overview of the whole UPRM system and its sub-systems.
 In this section the UPRM system will be explained in its context, the different stakeholders will be introduced and the basic functionality of the UPRM system will be described. Throughout this section, the constraints and assumptions for the system will be presented.
 
 	\subsection{Product Perspective}
+		The UPRM system will consist of three basic systems. It will consist of a web server, that will manage the information of UPRM, a database server, that will store and retrieve information on research and venues, and finally a web interface, from which the user can then communicate with the UPRM system.
+		
+		The web interface will not do any local computations, it instead will send requests to the web server, which will then authenticate the user privileges and act on the request accordingly. When responding to a request, the web server will use the information from the request to construct queries that will then be sent to the database server. Once the database server responds, the web server simply sends the information back to the local web interface that requested the specific service. The web interface will then use the response to redraw the interface and display the data.
+		
+		Because of database and data-type constraints, titles of papers and venue names will be restricted to 256 characters.
+	
 	\subsection{Product Functions}
 	\subsection{User Characteristics}
 	\subsection{General Constraints}
