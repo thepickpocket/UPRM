@@ -9,9 +9,14 @@ In this section the UPRM system will be explained in its context, the different 
 		
 		The web interface will not do any local computations, it instead will send requests to the web server, which will then authenticate the user privileges and act on the request accordingly. When responding to a request, the web server will use the information from the request to construct queries that will then be sent to the database server. Once the database server responds, the web server simply sends the information back to the local web interface that requested the specific service. The web interface will then use the response to redraw the interface and display the data.
 		
-		Because of database and data-type constraints, titles of papers and venue names will be restricted to 256 characters.
+		Because of database and data-type constraints, titles of papers and venue names will be restricted to 256 characters. For easy use of the UPRM system, user details of researchers will be automatically gathered from existing databases (if any) such as the University of Pretoria \textbf{LDAP}\cite{LDAP:rfc4511} database. The user permission hierarchy will be assigned on the UPRM system database. The data that the UPRM system transmits during communication is valuable and sensitive data and hence we will restrict web communication to the secure HTTP protocol \textbf{HTTPS}\cite{Google:HTTPS}.
 	
 	\subsection{Product Functions}
+		Users should be able to log into the UPRM system using their existing employee sign-on details. After authenticated login procedures have successfully passed, the user should be able to \textbf{C.R.U.D} projects. As soon as a project has been created, the user should be able to create and update an approximate timeline by setting deadlines and the setting of approximate completion levels.
+		
+		The user should be able to search for any project they are currently busy with as well as historical data of projects that they have been involved in. Depending on the permission level set by an administrator, the user should be able to search for specific projects by other employees and see specific information on that project such as the statistical data.
+		
+		The user should be able to gather statistics on their own projects and be able to generate a report on it. Depending on the permission level of the user, set by an administrator, the user should be able to gather the statistics on other employee projects as well, and then be able to generate a report on the data.
 	\subsection{User Characteristics}
 	\subsection{General Constraints}
 	\subsection{Assumptions and Dependencies}
