@@ -7,6 +7,7 @@
 \usepackage{fancyhdr}
 \usepackage{url}
 \usepackage{titlesec}
+\usepackage{hyperref}
 
 \usepackage{geometry}
 \geometry{
@@ -19,7 +20,22 @@
 
 \graphicspath{{../Resources/}}
 
+%subsubsubsection
+\titleclass{\subsubsubsection}{straight}[\subsubsection]
+
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+\renewcommand\theparagraph{\thesubsubsubsection.\arabic{paragraph}} % optional; useful if paragraphs are to be numbered
+
+\titleformat{\subsubsubsection}
+{\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\def\toclevel@subsubsubsection{3}
+
 \setcounter{secnumdepth}{4}
+
 
 % Headers & Footers
 \pagestyle{fancy}
