@@ -17,7 +17,7 @@ Third party users should be able to register with UPRM to gain access to the sys
 	\item User now has access to UPRM.
 	\item User details is stored in the UPRM database.\\
 \end{itemize}
-\textbf{Diagram:}\\
+\textbf{Register New User Use Case Diagram:}\\
 \centerline{\fbox{\includegraphics[width=\linewidth]{auth/RegisterNewUser}}}
 \subsubsection{Authentication : Login}
 Users should be able to login to UPRM.\\
@@ -26,7 +26,7 @@ Third party users should be authenticated using the UPRM database.\\ \\
 \textbf{Pre-Conditions}
 \begin{itemize}
 	\item User should provide the correct username and password.
-	\item After receiving the one-time pin the user should provide the system with the correct one-time pin.
+	\item After receiving the one-time pin the user should provide the system with the correct one-time pin.\\
 \end{itemize}
 \textbf{Post-Conditions}
 \begin{itemize}
@@ -38,10 +38,10 @@ Third party users should be authenticated using the UPRM database.\\ \\
 	\item If the login was not successful,
 			\begin{itemize}
 				\item the user should be notified of the error that caused the login to be unsuccessful.
-				\item the user should have up to 5 tries to login, after which the account will be locked. An administrator should be contacted to unlock the account.
+				\item the user should have up to 5 tries to login, after which the account will be locked. An administrator should be contacted to unlock the account. \\
 			\end{itemize} 
 \end{itemize}
-\textbf{Diagram:}\\
+\textbf{Login Use Case Diagram:}\\
 \centerline{\fbox{\includegraphics[width=\linewidth]{auth/Login}}}
 
 \subsubsection{Authentication : Logout}
@@ -49,12 +49,12 @@ Users should be able to logout of UPRM.\\ \\
 \textbf{Pre-Conditions}
 \begin{itemize}
 	\item User should be logged into UPRM.
-	\item A user session should exist.
+	\item A user session should exist.\\
 \end{itemize}
 \textbf{Post-Conditions}
 \begin{itemize}
 	\item User not logged into UPRM anymore.
-	\item The user session should be removed.
+	\item The user session should be removed.\\
 \end{itemize}
-\textbf{Diagram:}\\
+\textbf{Logout Use Case Diagram:}\\
 \centerline{\fbox{\includegraphics[scale=0.8]{auth/Logout}}}
