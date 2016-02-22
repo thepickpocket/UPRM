@@ -8,6 +8,7 @@
 \usepackage{url}
 \usepackage{titlesec}
 \usepackage[hidelinks]{hyperref}
+\usepackage[nottoc,numbib]{tocbibind}
 
 \usepackage{geometry}
 \geometry{
@@ -97,6 +98,11 @@
 	\pagebreak
 
 	\input{appendices}
+	
+	\newpage
+	\nocite{*}
+	\bibliography{references}
+	\bibliographystyle{ieeetr}
 
 	
 \end{document}
