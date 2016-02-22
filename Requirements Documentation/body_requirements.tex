@@ -34,6 +34,16 @@
 		\input{requirements/nonfunctional}
 
 	\subsection{Design Constraints}
-
-
+		Any and all input should be checked to be valid before sending it to the UPRM server.
+		
 	\subsection{Logical Database Requirements}
+		All data being used by the UPRM system, and its sub-systems, will be stored in a database managed by a DBMS. Although a relational database can be used, an object-relational database will be better. The UPRM database will have to have three tables:
+		\begin{itemize}
+			\item \textbf{Venue} - For storing all information regarding a specific venue.
+			\item \textbf{Project} - For storing all project related information.
+			\item \textbf{TPUsers} - For storing access information of third party users.
+		\end{itemize}
+		
+		The following diagram shows the basic database layout for the UPRM database. Do note that the structure of the database is likely to change during development and thus this diagram is simply a guideline.\\
+		\textbf{Logical database layout for UPRM}\\
+		\centerline{\fbox{\includegraphics[scale=0.6]{database.png}}}
