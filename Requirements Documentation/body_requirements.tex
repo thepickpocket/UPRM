@@ -5,7 +5,8 @@
 
 	\subsection{External Interface Requirements}
 		\input{requirements/interfaces}
-
+		
+	\newpage
 	\subsection{Functional Requirements}
 		\input{requirements/authentication/auth}
 		\input{requirements/projects/projects}
@@ -31,23 +32,24 @@
 		\input{requirements/venue_selection/venue_co}
 		\input{requirements/statistics/stats_co}		
 		\input{requirements/reporting/report_co}
-
+	
+	\newpage
 	\subsection{Non-Functional Requirements}
 		\input{requirements/nonfunctional}
 
 	\subsection{Design Constraints}
 		Any and all input should be checked to be valid before sending it to the UPRM server.
 		
+	\newpage	
 	\subsection{Logical Database Requirements}
 		All data being used by the UPRM system, and its sub-systems, will be stored in a database managed by a DBMS. Although a relational database can be used, an object-relational database will be better. The UPRM database will have to have four tables:
 		\begin{itemize}
 			\item \textbf{Venue} - For storing all information regarding a specific venue.
 			\item \textbf{Project} - For storing all project related information.
 			\item \textbf{TPUsers} - For storing access information of third party users.
-			\item \textbf{Submissions} - For storing feedback and submission statusses of projects to venues.\\
+			\item \textbf{Submissions} - For storing feedback and submission statusses of projects to venues.
 		\end{itemize}
-		The following diagram shows the basic database layout for the UPRM database. Do note that the structure of the database is likely to change during development and thus this diagram is simply given as a guideline.\\
-		
+		The following diagram shows the basic database layout for the UPRM database. Do note that the structure of the database is likely to change during development and thus this diagram is simply given as a guideline.\\ \\
 		In the pictures shown below the following data types are represented in the following way:
 		\begin{itemize}
 			\item \textbf{" "} - String.
